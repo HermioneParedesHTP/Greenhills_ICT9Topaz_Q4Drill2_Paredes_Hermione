@@ -1,0 +1,14 @@
+body {
+    background-image: url(pexels-steve-2007088.jpg);
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: #cca272;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(78, 122, 189, 0.651);
+    max-width: 400px;
+    margin: 80px auto;
+}
+

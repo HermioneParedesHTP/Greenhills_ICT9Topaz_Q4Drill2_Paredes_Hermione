@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Q4 Drill 2</title>
+</head>
+<body>
+  <form>
+    <h1>Heat Index Checker</h1>
+        <details><summary>Click here for Instructions</summary>
+            <p>Please enter the temperature in ˚C and humidity in % to check the heat index. The heat index and status will be displayed upon pressing the "Check" button.</p>
+        </details>
+        <input type="number" id="value1" placeholder="Temperature (˚C)"><br>
+        <input type="number" id="value2" placeholder="Humidity (%)"><br>
+        <input type="button" onclick="heatcheck()" value="Check" placeholder="Check">
+            <div id="display1"></div>
+    <script src="main.js"></script>   
+    </form>
+</body>
+</html>
